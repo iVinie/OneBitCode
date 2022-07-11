@@ -1,0 +1,19 @@
+.Text-Buy {
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #ff4042;
+}
+
+.btn {
+  padding: 10px 15px;
+  border: 1px solid #ff0000;
+  background-color: #ff4;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #00ff00;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+/*# sourceMappingURL=style.css.map */

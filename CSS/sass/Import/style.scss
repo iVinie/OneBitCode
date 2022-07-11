@@ -1,0 +1,6 @@
+//import colors
+@import "./color/color.scss";
+//Como em HOME ta usando as cores de color, então o color tem q ser importado antes c.c. as cores não serão acessadas 
+
+//import home
+@import "./pages/home.scss";

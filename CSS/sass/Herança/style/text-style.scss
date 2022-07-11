@@ -1,0 +1,11 @@
+@mixin text-style ($width, $padding, $boder, $display, $margin){
+    width: $width;
+    padding: $padding;
+    border-radius: $boder;
+    display: $display;
+    margin-top: $margin
+}
+$Purple: purple;
+$white: white;
+$yellow: yellow;
+$blue: blue;

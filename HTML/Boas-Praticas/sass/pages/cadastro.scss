@@ -1,0 +1,5 @@
+.container{
+    p{
+        @include text-style (#ffffff, 20px, 'Times New Roman')
+    }
+}

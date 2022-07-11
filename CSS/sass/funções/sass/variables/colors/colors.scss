@@ -1,0 +1,26 @@
+//a % é a intensidade da cor 1
+//#title{
+//    color: mix(#ff0000, #0000ff, 50%)
+//}
+//função vai verificar a cor do background, se for claro, a color fica escura e c.c. fica claro
+*{
+    padding: 0;
+    margin: 0;
+}
+@function color-title($background-color){
+    @if (lightness($background-color) > 50) {
+        @return #000000;
+    }@else{
+        @return #ffffff;
+    }
+}
+
+@mixin background-color-mixin($color) {
+    background-color: $color;
+    color: color-title($color);
+}
+
+.title{
+    height: 100vh;
+    @include background-color-mixin(#ff0000);
+}

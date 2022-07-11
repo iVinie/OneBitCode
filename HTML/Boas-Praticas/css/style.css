@@ -1,0 +1,13 @@
+body{background-color:#ff4043}#title-home{font-size:44px;font-family:"Times New Roman",Times,serif}.btn{width:95px;padding:10px 0px;background-color:#0a092c;color:#fff;display:block;margin-top:10px;border-radius:95px;cursor:pointer}.btn:hover{background-color:lime;transition:1s;color:#000}.container p{color:#fff;font-size:20px;font-family:"Times New Roman"}.container p{color:#fff;font-size:20px;font-family:"Times New Roman"}/*# sourceMappingURL=style.css.map */
+/* 
+Esse comando vai deixar o codico em uma linha só: 
+sass ./HTML/Boas-Praticas/sass/style.scss:./HTML/Boas-praticas/css/style.css --style compressed
+
+Esse outro vai fazer criar uma pasta e um arquivo css, quando escrevemos com scss::
+sass --watch ./HTML/Boas-Praticas/sass/style.scss:./HTML/Boas-praticas/css/style.css
+
+
+
+Como vamos usar o codigo do scss para fazer edições aqui, não tem problema deixar em uma linha
+ja que o site vai ficar mais otimizado
+*/

@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.flex-container {
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    min-height:100vh;
+    display: flex;
+    gap: 5px;
+}
+.flex-item {
+    background-color: #ff0044;
+    /* flex-basis: auto; Largura de cada item */
+    /* flex-shrink: 1; Diminuição dos box, quando diminui a tela, podemos da foco em 1 tb */
+    /* flex-grow: 1; Preenche o resto da tela, podemos colocar exclusivo para um box, por exemplo, com algum id */
+    flex: 1 1 auto; /*grow | shrink | basis*/
+}
+
+.flex-item #cor{
+    color:#bde215;
+    font-weight: bold;
+}

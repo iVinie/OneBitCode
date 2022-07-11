@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.flex-container {
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    min-height:100vh;
+    display: flex;
+    flex-wrap: wrap; /* Quebra dos box*/
+    gap: 5px; /*Espacamento da linha e coluna*/
+    justify-content: center; /*Centraliza de forma Horizontal*/
+    align-items: center; /*Centraliza de forma vertical*/
+    align-content: center;
+}
+.flex-item {
+    background-color: #ff0044;
+    width: 350px; /*Largura*/
+    height: 350px;/*Altura*/
+}
+  
+.flex-item #cor{
+  color:#bde215;
+  font-weight: bold;
+}

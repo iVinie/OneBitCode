@@ -1,0 +1,12 @@
+.text h1 {
+  color: #ff4042;
+  font-size: 34px;
+  font-family: "Times New Roman";
+}
+.text p {
+  color: #0000ff;
+  font-size: 20px;
+  font-family: serif;
+}
+
+/*# sourceMappingURL=styleMixin.css.map */

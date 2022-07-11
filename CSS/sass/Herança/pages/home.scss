@@ -1,0 +1,25 @@
+.btn{
+    cursor:pointer;
+    @include text-style (125px, 10px 8px, 28px, block, 10px);
+    &#btn-roxo{
+        background-color: $Purple;
+        color: $white;
+    }
+    &#btn-amarelo{
+        background-color: $yellow;
+        color: $Purple;
+    }
+   // &.btn-azul{
+   //     background-color: $blue;
+    //    color: $white
+   // }
+}
+//Ou pedemos fazer:
+//Usando o extend
+//Organização é melhor a Herança (acima) do que esse extend
+
+#btn-azul{
+    @extend .btn;
+    background-color: $blue;
+    color: $white;
+}
